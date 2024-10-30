@@ -49,7 +49,6 @@ function stopStopwatch() {
 
 // Reset the stopwatch
 function resetStopwatch() {
-  stopStopwatch();
   stopwatchTime = 0;
   updateStopwatchDisplay();
 }
